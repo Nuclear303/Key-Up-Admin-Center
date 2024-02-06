@@ -1,0 +1,37 @@
+.form-input {
+  color: var(--input-color);
+  position: relative;
+}
+
+.form-input > input {
+  background-color: inherit;
+  padding: var(--input-padding);
+  color: transparent;
+  border-color: var(--input-color);
+  transition: top 0.3s ease, color 0.3s ease;
+  width: calc(100% - (var(--input-padding) * 2));
+  border-width: 2px;
+  border-radius: .4em;
+}
+
+.form-input > input:focus {
+  border-color: var(--input-active-color);
+  outline: none;
+  color: var(--input-active-color);
+}
+
+.form-input.form-input-used > input{
+  color: var(--input-color);
+}
+
+fieldset{
+  padding:0;
+  padding-block: 0;
+  padding-inline: 0;
+  border: 0px;
+  width:100%;
+  height:fit-content;
+}
+legend{
+  font-size: small;
+}

@@ -1,0 +1,23 @@
+.Button>button{
+  background-color: var(--background-color);
+  padding: 1.5em;
+  color: var(--input-color);
+  border-color: var(--input-color);
+  transition: color 0.3s ease;
+  width: 100%;
+  border-width: 2px;
+  border-radius: 9999px;
+}
+.Button>button:hover{
+  color: var(--input-active-color);
+}
+
+.Button>button.highLight{
+  background-color: var(--input-color);
+  transition: background-color 0.3s ease;
+  color: var(--background-color);
+}
+
+.Button>button.highLight:hover{
+  background-color: var(--input-active-color);
+}

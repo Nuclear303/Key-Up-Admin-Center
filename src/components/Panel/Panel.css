@@ -1,0 +1,47 @@
+.panel-nav{
+  position: relative;
+  padding:3px;
+  top:0;
+  left:0;
+  height:7.5%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.nav-logo{
+  height: 100%;
+  width:auto;
+  margin-left:5%;
+}
+
+.panel-nav .Button{
+  float: right;
+  margin-right:5%;
+}
+
+.panel{
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.panel .form-input{
+  width:70%;
+  height:30%;
+}
+.panel input[type=text]{
+  width:100%;
+  height:30%;
+  border-radius: 5px;
+}
+.panel .Button{
+  width:30%;
+}
+.eventImg{
+  display: block;
+  height: 10%;
+  width:auto;
+}
